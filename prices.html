@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Precios</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./node_modules/aos/dist/aos.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
+</head>
+<body class="bg-secondary">
+    
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">JD-Company</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+              <ul class="navbar-nav me-auto text-light mb-2 mb-lg-0">
+                <li class="nav-item mx-1">
+                  <a class="nav-link" href="./index.html">Home</a>
+                </li>
+                <li class="nav-item mx-1">
+                  <a class="nav-link" href="./service.html">Servicios</a>
+                </li>
+                <li class="nav-item mx-1">
+                  <a class="nav-link active" aria-current="page"  href="./prices.html">Precios</a>
+                </li>
+                <li class="nav-item mx-1">
+                    <a class="nav-link" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" href="#">Contacto</a>
+                  </li>
+              </ul>
+              <div class="d-flex">
+                <div class="btn-group m-2 gap-1" role="group" aria-label="Basic outlined">
+                  <button class="btn btn-light" type="button">Iniciar Sesión  <i class="bi bi-person-circle"></i></button>
+                  <button class="btn btn-light" type="button">Registrar Usuario  <i class="bi bi-journal-bookmark-fill"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+    </header>
+
+    <main class="container text-third">
+        <section data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500" class="p-3 my-5">
+            <div class="card text-center bg-transparent border-primary p-1 p-md-5">
+                <div class="card-body">
+                    <h1 class="font-family-DeliciousHandrawn">¿Sabías Qué?</h1>
+                    <p>
+                        <b>Una página web informativa es la mejor forma para promocionar su negocio.</b> <br><br>
+                        Una página web informativa le permitirá compartir información sobre sus productos, servicios y la empresa en general con una audiencia global. Una página web la conectará con su audiencia y le brindará una forma fácil y práctica de promover sus negocios. La creación de una página web accesible, intuitiva y atractiva también le ayudará a aumentar la visibilidad de su negocio y mejorar las tasas de conversión. En resumen, una página web informativa le permite aumentar el alcance de su negocio y aumentar su presencia en línea.
+                    </p>
+                    <h1 class="card-title font-family-DeliciousHandrawn">Ultima Oferta</h1>
+                    <p class="card-text">¡Tenemos el servicio indicado para ustedes! Nuestros profesionales y experimentados webmasters les ofrecemos la creación de una página web informativa a un precio único de $550.000 pesos con una cuota inicial de 30% (165.000 pesos) al inicio del proyecto y el resto después de que la página web esté en producción y un mantenimiento de $120.000 pesos mensuales empieza a pagar desde el tercer mes.</p>
+                    <p class="card-text"><small class="text-muted">Oferta valida hasta 20 de mayo del 2023</small></p>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-10 position-relative">
+                        <img src="./images/oferta.png" class="card-img-bottom" alt="...">
+                        <div class="position-absolute top-50 start-50 translate-middle">
+                            <button type="button" class="btn btn-secondary btn-md-lg p-1 px-md-5 py-md-3 border border-primary" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">¡Creala Ya!  <i class="bi bi-gem"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body justify-content-center">
+                    <ul class="text-center list-group list-group-horizontal-lg list-group-flush gap-3 p-2">
+                        <li> 100% personalizada a tu gusto </li>
+                        <li> Herramientas modernas de diseño y programación web. </li>
+                        <li> Optimización para motores de búsqueda (SEO). </li>
+                        <li> Integración con redes sociales. </li>
+                        <li> Herramientas de marketing y análisis. </li>
+                        <li> Servicio de soporte técnico y asistencia. </li>
+                        <li> Garantía de servicio de calidad.  </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <div class="offcanvas offcanvas-end bg-secondary text-third" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+              <h3 class="font-family-DeliciousHandrawn" id="offcanvasRightLabel">Creala tú pagina web</h3>
+              <button type="button" class="btn-close btn-close-white text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <p>
+                ¡Hola! Si quieres conocer un poco más sobre nosotros, te invitamos a completar el siguiente formulario de contacto. Estaremos encantados de atender todas tus consultas o sugerencias de forma ágil y amable. ¡Gracias por contactarnos y esperamos escucharte pronto!
+              </p>
+              <div class="my-1 my-md-5">
+                <h3 class="font-family-DeliciousHandrawn text-center" id="offcanvasRightLabel">Contacto</h3>
+                <div class="p-3 text-secondary">
+                  <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="contactName" placeholder="Nombre">
+                    <label for="contactName">Nombre</label>
+                  </div>
+                  <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="contactEmail" placeholder="Correo electrónico">
+                    <label for="contactEmail">Correo electrónico</label>
+                  </div>
+                  <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="contactEmail" placeholder="Asunto">
+                    <label for="floatingInput">Asunto</label>
+                  </div>
+                  <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="contactSubject" placeholder="Número de teléfono">
+                    <label for="contacSubject">Número de teléfono</label>
+                  </div>
+                  <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="contactCompanyName" placeholder="Nombre de empresa">
+                    <label for="contactCompanyName">Nombre de empresa</label>
+                  </div>
+                  <div class="form-floating mb-3">
+                    <textarea class="form-control" placeholder="Mensaje" id="contactMessage" style="height: 100px"></textarea>
+                    <label for="floatingTextarea2">Mensaje</label>
+                  </div>
+                  <div class="form-floating d-grid gap-2">
+                    <button type="button" class="btn btn-outline-light py-3">Enviar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </main>
+
+       
+    <footer class="bg-primary">
+        <div class="row p-2 mx-auto">
+            <div class="col-12 col-sm-6 col-md p-4 text-center">
+                <i class="bi bi-whatsapp text-light"></i>  <a class="link-light" href="">Whatsapp</a>
+            </div>
+            <div class="col-12 p-4 col-sm-6 col-md text-center">
+                <i class="bi bi-facebook text-light"></i>  <a class="link-light" href="">Facebook</a>
+            </div>
+            <div class="col-12 p-4 col-sm-6 col-md text-center">
+                <i class="bi bi-instagram text-light"></i>  <a class="link-light" href="">Instagram</a>
+            </div>
+            <div class="col-12 p-4 col-sm-6 col-md text-center">
+                <i class="bi bi-linkedin text-light"></i>  <a class="link-light" href="">Linkelind</a>
+            </div>
+            <div class="col-12 p-4 col-sm-6 col-md text-center">
+                <i class="bi bi-github text-light"></i>  <a class="link-light" href="">Github</a>
+            </div>
+            <div class="col-12 p-4 col-sm-6 col-md text-center">
+                <i class="bi bi-shield-exclamation text-light"></i>  <a class="link-light" href="">Información Legal</a>
+            </div>
+            <div class="col-12 p-4 col-sm-6 col-md text-center">
+                <i class="bi bi-key text-light"></i>  <a class="link-light" href="">Politicas De Privacidad</a>
+            </div>
+            <div class="col-12 p-4 col-sm-6 col-md text-center">
+                <i class="bi bi-c-circle text-light"></i>  <a class="link-light" href="">Copyright</a>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="./node_modules/aos/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>

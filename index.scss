@@ -1,0 +1,60 @@
+@import "./node_modules/bootstrap/scss/functions";
+@import "./node_modules/bootstrap/scss/variables";
+@import "./node_modules/bootstrap/scss/mixins";
+
+// Optional
+/*@import "../node_modules/bootstrap/scss/root";
+@import "../node_modules/bootstrap/scss/reboot";
+@import "../node_modules/bootstrap/scss/type";*/
+
+@font-face {
+  font-family: 'DeliciousHandrawn-Regular';
+  src: url('./fonts/Delicious_Handrawn/DeliciousHandrawn-Regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+
+$primary: #1b87e6;
+$secondary: #09192f;
+
+// theme colors
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "light": $light
+);
+
+// Create your own map
+$custom-colors: (
+  "third": #cedcf6,
+  "fourth": #269bbb,
+  "stars": #f7c901
+);
+
+// Merge the maps
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+// Merge the delete maps
+//$theme-colors: map-remove($theme-colors, "info", "light", "dark");
+
+$font-size-base: 18px;
+
+.banner-img {
+  background-image: url(./images/web-development.png);
+  background-position: center center;
+  min-height: 26rem;
+  display: flex;
+  align-items: center;
+}
+
+.banner-text {
+  backdrop-filter: blur(10px);
+}
+
+.font-family-DeliciousHandrawn {
+  font-family: DeliciousHandrawn-Regular;
+}
+
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+
